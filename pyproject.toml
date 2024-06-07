@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "djangoguide"
+version = "0.1.0"
+description = ""
+authors = ["LilDrugHill <smookigrow@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ipython = "^8.22.2"
+django-extensions = "^3.2.3"
+pytils = "^0.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
